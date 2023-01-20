@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "jsx": "react-jsx",
+        "strict": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "outDir": "js",
+        "sourceMap": true
+    },
+    "include": ["src/*", "src/custom.d.tsx"]
+}
